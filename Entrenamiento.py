@@ -159,4 +159,4 @@ print(classification_report(y_true, y_pred, target_names=class_names))
 
 ruta_guardado = '/content/drive/MyDrive/SteelSense_Model_6Clasesprueba.keras'
 model.save(ruta_guardado)
-print(f"✅ ¡Modelo multiclase guardado con éxito en: {ruta_guardado}!")
+print(f" ¡Modelo multiclase guardado con éxito en: {ruta_guardado}!")
